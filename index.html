@@ -31,6 +31,15 @@
                 .catch(function(err){
                     console.log("Error: ", err);
                 });
+
+            navigator.serviceWorker.register('./sw2.js')
+                .then(function(registration){
+                    //Registro exitoso
+                    console.log("Todo bien con el otro sw");
+                })
+                .catch(function(err){
+                    console.log("Error en el segundo sw: ", err);
+                });
         }
     </script>
 </body>

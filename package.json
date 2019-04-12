@@ -1,0 +1,17 @@
+{
+    "name": "progressive-time-news",
+    "version": "1.0.0",
+    "description": "Ejemplo de noticias y notificaciones",
+    "main": "server.js",
+    "scripts":{
+        "test": "echo \"Error: no hay prueba especificada\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Mao en KMMX",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0",
+        "web-push": "^3.2.1"
+    }
+}
